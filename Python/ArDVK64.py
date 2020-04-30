@@ -1,9 +1,3 @@
-#-----------ArDVK-64--------------
-#---Autor: Érick Oliveira  -------
-#---Data:  13/09/2018      -------
-#---Copyright: Cripto S.A  -------
-#---------------------------------
-
 import binascii
 
 global pos #Conjunto de possibilidades
@@ -153,9 +147,3 @@ class ArDVK64():
 		plain_text = ArDVK64.filter(plain_text)
 
 		return plain_text
-
-#Exemplo de Codificação/Decodificação:
-encoded = ArDVK64.encode('Ola')
-print(encoded)
-decoded = ArDVK64.decode(encoded)
-print(decoded)
